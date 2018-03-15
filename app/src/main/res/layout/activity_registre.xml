@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.devandroid.potter.test.RegistreActivity">
+
+    <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:orientation="vertical">
+
+          <ImageView
+              android:layout_width="match_parent"
+              android:layout_height="200dp"
+              android:src="@drawable/plan"
+              android:scaleType="centerCrop"
+              android:id="@+id/imageView1"
+              android:contentDescription="TODO"
+              tools:ignore="ContentDescription,HardcodedText" />
+
+          <Button
+              android:layout_width="380dp"
+              android:layout_height="wrap_content"
+              android:text="Ajouter"
+              android:textAllCaps="false"
+              android:id="@+id/button"
+              tools:ignore="HardcodedText" />
+
+      </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText"
+            android:inputType="text" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="Partager"
+            android:textAllCaps="false"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Modifier"
+            android:textAllCaps="false"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Supprimer"
+            android:textAllCaps="false"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+
+</LinearLayout>
